@@ -20,6 +20,12 @@ export const people = [
   {
     name: 'Ben'
   },
+  {
+    name: 'Uncle John'
+  },
+  {
+    name: 'Henry'
+  },
 ]
 
 export const messages = [

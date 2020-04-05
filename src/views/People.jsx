@@ -34,7 +34,11 @@ const People = styled.div`
 
   .people {
     width: 80%;
-    overflow: auto;
+    overflow: scroll;
+    -ms-overflow-style: none;
+  }
+  .people::-webkit-scrollbar {
+    display: none;
   }
 
   .person {

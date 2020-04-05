@@ -32,7 +32,7 @@ const MessagePage = styled.div`
   }
 
   .interface {
-    border: 1px solid red;
+    // border: 1px solid red;
     flex-direction: row;
     justify-content: space-between;
     align-items: space-between;

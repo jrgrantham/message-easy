@@ -39,7 +39,12 @@ const MessagePage = styled.div`
 
   .messages {
     overflow: auto;
+    -ms-overflow-style: none;
   }
+  .messages::-webkit-scrollbar {
+    display: none;
+  }
+  
   .left {
     .message {
       background: green;
