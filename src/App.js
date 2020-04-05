@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="content">
         <h1>
           Message-Easy
         </h1>
         <p>
-          for children with mothers that obstruct contact
+          for children with mothers that <p>obstruct contact</p>
         </p>
         <input
           placeholder='name'
@@ -18,9 +17,7 @@ function App() {
         <input
           placeholder='password'
         />
-      </header>
+      </div>
     </div>
   );
 }
-
-export default App;

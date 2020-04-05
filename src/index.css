@@ -12,18 +12,6 @@ code {
     monospace;
 }
 
-h1 {
-  margin: 0px;
-}
-
-p {
-  margin-bottom: 60px;
-}
-
-input {
-  padding: 20px;
-  font-size: 15px;
-  width: 200px;
-  border-radius: 15px;
-  margin: 10px;
+html {
+  background-color: #282c34;
 }
