@@ -1,23 +1,14 @@
 import React from 'react';
 import './App.css';
+import Landing from './views/Landing'
+import { Route } from "react-router-dom";
 
 export default function App() {
+  document.getElementById("root").style.height = "100%";
+  let vh = Math.max(window.innerHeight, 200);
   return (
-    <div className="App">
-      <div className="content">
-        <h1>
-          Message-Easy
-        </h1>
-        <p>
-          for children with mothers that <p>obstruct contact</p>
-        </p>
-        <input
-          placeholder='name'
-        />
-        <input
-          placeholder='password'
-        />
-      </div>
+    <div className='app' style={{height: `${vh}px`}}>
+      <Route exact path='/' component={Landing} />
     </div>
   );
 }
