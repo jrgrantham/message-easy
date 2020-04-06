@@ -190,6 +190,7 @@ input, button {
   margin: 10px;
   text-align: center;
   background-color: lightgray;
+  color: rgba(230, 230, 230)
 }
 
 button {
